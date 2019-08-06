@@ -5,13 +5,12 @@ PROJECT START STEPS:
 
     Pre-requisites:
     1. Install http-server module (https://www.npmjs.com/package/http-server).
-    2. Install node, npm, ruby (for gem modules), bower and grunt. (https://github.com/yeoman/generator-angular)
+    2. Install node, npm, ruby (for gem modules -> compass), bower and grunt. (https://github.com/yeoman/generator-angular)
 
     Steps:
     1. To run this application, do the following:
         1.a. Go to the project root directory.
         1.b. Run the following commands in the terminal/command line to build the app:
-            - gem install compass
             - npm install
             - bower install --allow-root (if running via sudo else just enter "bower install")
             - grunt --force
