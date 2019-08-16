@@ -15,9 +15,11 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'config'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
+    $locationProvider.hashPrefix('');
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
